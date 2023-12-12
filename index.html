@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raveesha Vishwajith</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/313dfcada1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" alt="logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web App Designer</p>
+          <h1>
+            Hi, I am <span>Raveesha</span><br />Vishwajith from Sri Lanka.
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------- About --------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about-01-01.png" alt="about" class="about-image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Raveesha Vishwajith, a skilled software engineer and Computer
+              Science graduate from the University of Jaffna, excels in mobile
+              and web app development. With a focus on innovation and
+              user-centric design, Raveesha combines a comprehensive skill set
+              with a passion for staying at the forefront of evolving
+              technologies, delivering excellence in every project.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - Current</span><br />Web/App Designer at Daimean Ltd.
+                </li>
+                <li>
+                  <span>2022 - 2023</span><br />UI/UX Design trainer at StarApp Ltd.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020 - Current</span><br />Computer Science Undergraduate at UoJ</li>
+                <li><span>2021</span><br />UI/UX Design Deploma at UCSC</li>
+                <li><span>2019</span><br />Advanced Level</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------- Services --------------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design maestro, adept at creating visually stunning and
+              intuitively functional websites. Proficient in HTML, CSS, and
+              UI/UX principles, I transform concepts into compelling digital
+              experiences. With a keen eye for aesthetics and a commitment to
+              seamless navigation, I craft websites that captivate and engage
+              users effectively.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Versatile app designer with a flair for blending aesthetics and
+              functionality. Proficient in UI/UX principles and experienced in
+              translating concepts into visually appealing and user-friendly
+              mobile applications. Dedicated to creating seamless, intuitive
+              experiences that elevate user engagement. My designs seamlessly
+              marry innovation and practicality for impactful app solutions.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Passionate UI/UX designer skilled in crafting seamless digital
+              experiences. Expert in user-centric design principles, I bring
+              creativity and functionality to every interface. Proficient in
+              wireframing, prototyping, and visual design, I ensure delightful
+              interactions that resonate with users. My designs prioritize both
+              aesthetics and usability, elevating products through intuitive
+              interfaces.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------- Portfolio ---------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/volunteer_management.png" alt="work1" />
+            <div class="layer">
+              <h3>Volunteer Management Web Site</h3>
+              <p>
+                Empower change and connect with purpose through our Volunteer
+                Management website! Seamlessly bring together passionate
+                individuals and impactful causes. Streamline volunteer
+                coordination, making a difference is just a click away. Visit
+                our website to join a community committed to creating positive
+                change worldwide.
+              </p>
+              <a href="https://reachoutnow.me" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/movie_app.png" alt="work2" />
+            <div class="layer">
+              <h3>Movie App</h3>
+              <p>
+                Experience the magic of cinema with our movie app! Dive into a
+                world of entertainment, connecting you to the latest releases,
+                talented filmmakers, and global film enthusiasts. Download now
+                on the Play Store for an immersive cinematic journey at your
+                fingertips!.
+              </p>
+              <a
+                href="https://github.com/raveeshavishwajith/movie_app"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <!-- <div class="work">
+            <img src="images/" alt="work3" />
+            <div class="layer">
+              <h3>Online Shoppling App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div> -->
+        </div>
+        <a class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- --------------------- Portfolio ---------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-at"></i>raveeshavishwajith@gmail.com</p>
+            <p><i class="fa-solid fa-mobile"></i>0717144135</p>
+            <div class="social-icon">
+              <a href="https://www.facebook.com/raveesha.vishvajith.1/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/raveevish"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+              <a href="https://www.instagram.com/raveesha_vishwajith/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/raveesha-v-27bb08112/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/raveeshavishwajith"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <!-- <a href="#" download class="btn btn2">Download CV</a> -->
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2023 Daimean.  All rights Reserved.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbz746LCHa85eUOaBmlxLI3FtQ5jAbtS2MJsIyUuQjX4wnnmtAVx_TK1BkWksDmMvmiQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
